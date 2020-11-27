@@ -1,0 +1,22 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/signup",
+        "destination": "/signup.html",
+        "type": 301
+      },
+      {
+        "source": "/profile",
+        "destination": "/profile.html",
+        "type": 301
+      }
+    ]
+  }
+}
